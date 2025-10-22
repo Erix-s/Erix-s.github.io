@@ -25,7 +25,7 @@ instacart_clean <- instacart |>
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Top 50 Aisle by Reorder Rate
+### Top 15 Aisle by Reorder Rate
 
 ```{r}
 aisle_reorder <- instacart_clean |>
@@ -35,7 +35,7 @@ aisle_reorder <- instacart_clean |>
     n_orders = n()
   ) |>
   arrange(desc(reorder_rate)) |>
-  slice_max(order_by = n_orders, n = 50)
+  slice_max(order_by = n_orders, n = 15)
 
 aisle_reorder |> 
   plot_ly(
@@ -45,8 +45,11 @@ aisle_reorder |>
   ) |>
   layout(
     xaxis = list(title = "Reorder Rate"),
-    yaxis = list(title = "Aisle")
+    yaxis = list(
+    title = "Aisle",
+    titlefont = list(size = 18)
     )
+)
 ```
 
 Column {data-width=350}
