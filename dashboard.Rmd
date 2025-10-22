@@ -1,0 +1,95 @@
+---
+title: "flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+data("instacart")
+
+instacart_clean <- instacart |>
+  mutate(
+  order_dow = factor(order_dow,
+  levels = 0:6,
+  labels = c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"))
+)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Top 50 Aisle by Reorder Rate
+
+```{r}
+aisle_reorder <- instacart_clean |>
+  group_by(aisle) |>
+  summarize(
+    reorder_rate = mean(reordered, na.rm = TRUE),
+    n_orders = n()
+  ) |>
+  arrange(desc(reorder_rate)) |>
+  slice_max(order_by = n_orders, n = 50)
+
+aisle_reorder |> 
+  plot_ly(
+  x = ~reorder_rate,
+  y = ~reorder(aisle, reorder_rate),
+  type = "bar"
+  ) |>
+  layout(
+    xaxis = list(title = "Reorder Rate"),
+    yaxis = list(title = "Aisle")
+    )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Order Activity by Day of Week and Hour
+
+```{r}
+activity_df <- instacart_clean |>
+count(order_dow, order_hour_of_day)
+
+plot_ly(
+  data = activity_df,
+  x = ~order_hour_of_day,
+  y = ~order_dow,
+  z = ~n,
+  type = "heatmap",
+  colors = "YlGnBu"
+) |>
+  layout(
+    xaxis = list(title = "Hour of Day"),
+    yaxis = list(title = "Day of Week")
+)
+```
+
+### Reorder rate by Add-to-Cart Position
+
+```{r}
+reorder_trend <- instacart_clean |>
+group_by(add_to_cart_order) |>
+summarize(mean_reordered = mean(reordered))
+
+plot_ly(
+  data = reorder_trend,
+  x = ~add_to_cart_order,
+  y = ~mean_reordered,
+  type = "scatter",
+  mode = "lines+markers",
+  color = I("steelblue")
+    ) |>
+layout(
+  xaxis = list(title = "Add to Cart Order"),
+  yaxis = list(title = "Mean Reorderd")
+  )
+```
+

@@ -3,12 +3,15 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
+    - text: "Dashboard"
+      href: dashboard.html
     - text: "Resume"
       href: resume.html
     - icon: fa-envelope fa-lg
       href: mailto:<erixyuan@gmail.com>
     - icon: fa-github fa-lg
       href: https://github.com/Erix-s
+      
 output:
   html_document:
     toc: true

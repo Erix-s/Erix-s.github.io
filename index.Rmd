@@ -14,12 +14,14 @@ output:
 ## Welcome
 
 
-I’m a MPH candidate in department of epidemiology and applied biostatistics certificate at Columbia university. Data Science I student. 
+I’m a MPH candidate in department of epidemiology and applied biostatistics certificate at Columbia university, currently Data Science I (P8105) student.   
 I’m interested in causal inference, R, SAS and I enjoy data analysis.
+
+This page also includes a dashboard for HW4 interactive plots from P8105 data set.
 
 
 ## Highlights
-- 🔭 Current project: Dementia in LLFS
+- 🔭 Current project: Dementia in LLFS Thesis
 - 🧰 Skills: R, Python, SAS, MS Office Suite
 
 
