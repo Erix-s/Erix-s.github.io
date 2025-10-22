@@ -1,0 +1,72 @@
+---
+title: "Resume"
+output: html_document
+---
+
+## Shengyuan Xu
+NYC, Shanghai · Ericshengyuan@gmail.com · [GitHub](https://github.com/Erix-s) · 
+
+
+## Education
+__New York University__, New York, United States  
+__BS__, Major in Global Public Health/Chemistry joint — Sep 2020-May 2024
+
+
+__Columbia University__, New York, United States  
+__Master candidate__, in Mailman School of Public Health, Department of Epidemiology
+
+## Experience
+
+**Research assistant**  
+Jun-Aug 2024  
+
+  - Professor Sheng Wang's Lab at the University of Washington   
+  - Literature Review writing about models in AI pathology    
+  - Pathology article investigation and research    
+  
+Aug-Sep 2023  
+
+  - Assists in language models to predict drug response effect  
+  - Reviewed data from PubMed Central focusing on drug synergy classification  
+  - Read research papers and investigated Natural Language Processing and practical application of PubMed-BERT  
+  
+**Immunology and Medical Wet Lab**  
+Jun-Aug 2023  
+
+  - Shanghai Jiao Tong University with Prof. Bin Li  
+  - Conducted tissue processing with machinery cutting, centrifuge, and temperate box  
+  - Ran Gel Electrophoresis to separate samples’ proteins and Western Blotting to identify designated ones  
+  - Tested, compared, visualized, and labeled for further spine metastases detection  
+
+
+
+
+## Project  
+**Dementia Prevalence in LLFS**  
+
+- This project seeks to estimate dementia prevalence from raw data LLFS, stratified by age, sex, and education and compare prevalence patterns with FHS. 
+- The main goal is to draw a statistically significant difference of dementia prevalence between two population controlling other determinants.
+
+## Skills
+**Languages:** R, Python, SAS  
+
+**Data:** tidyverse, ggplot2, dplyr  
+
+**Tools:** Git/GitHub, RStudio, R Markdown  
+
+
+## Publications
+
+
+1. Zhiyuan Jiang, Qianru Huang, Yujie Chang, Yiran Qiu, Hao Cheng, Mengdi Yang, Shunyi Ruan, Suyuan Ji, Jing Sun, Zhiyu Wang, __Shengyuan Xu__, Rui Liang, Xueyu Dai, Kejin Wu, Bin Li, Dan Li, Hui Zhao. LILRB2 promotes immune escape in breast cancer cells via enhanced HLA-A degradation.Cellular Oncology. 2023 (Preacceptance) 
+
+2. Zhiyu Wang, Guangyu Yao, Yifeng Gu, Yujie Chang, Jing Sun, Shunyi Ruan, Jingyi Guo, __Shengyuan Xu__, Shiqi Peng, Bolin Lai, Xiaoyun Zhang, Yanfeng Wang, Ya Zhang, Yuehua Li, Hui Zhao. Deep learning system to detect spine metastases and evaluate features from CT imaging: a multi-center test study.Cancer Imaging. 2023 (Under review)  
+
+3. Yujie Chang, Yifeng Gu, Shunyi Ruan, __Shengyu Xu__, Jing Sun, Zhiyuan Jiang, Guangyu Yao, Zhiyu Wang, Hui Zhao. Comparison of the detection performance of [18F]FDG PET/CT with CT on bone metastases: randomized controlled clinical trial.Cancer Imaging. 2023 (Under review)  
+
+4. Zixuan Liu, Zefan Cai, Kenan Ye, Addie Woicik, Hanwen Xu, __Shengyuan Xu__, Hoifung Poon, and Sheng Wang. Synthesizing high-order biological data using GPT. The 28th International Conference on Research in Computational Molecular Biology.2023
+
+---
+
+
+Download a PDF resume [here](resume.pdf).

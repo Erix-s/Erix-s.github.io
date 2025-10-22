@@ -1,0 +1,42 @@
+---
+title: "P8105 HW4"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: paper
+---
+
+# Eric's website
+
+
+
+# Welcome
+
+
+I’m a MPH candidate in department of epidemiology and applied biostatistics certificate at Columbia university. Data Science I student. 
+I’m interested in causal inference, R, SAS and I enjoy data analysis.
+
+
+## Highlights
+- 🔭 Current project: Dementia in LLFS
+- 🧰 Skills: R, Python, SAS, MS Office Suite
+
+
+## Experience
+- **Research assistant** Jun-Aug 2024
+  - Professor Sheng Wang's Lab at the University of Washington
+  - Literature Review writing about models in AI pathology
+  - Pathology article investigation and research
+- **Immunology and Medical Wet Lab** Jun-Aug 2023
+  - Shanghai Jiao Tong University with Prof. Bin Li
+  - Conducted tissue processing with machinery cutting, centrifuge, and temperate box
+  - Ran Gel Electrophoresis to separate samples’ proteins and Western Blotting to identify designated ones
+  - Tested, compared, visualized, and labeled for further spine metastases detection
+
+
+---
+
+
+### About this site
+This site is built with R Markdown and hosted on GitHub Pages. Source available on my GitHub.
