@@ -7,11 +7,11 @@ output:
     theme: paper
 ---
 
-# Eric's website
+## Eric's website
 
 
 
-# Welcome
+## Welcome
 
 
 I’m a MPH candidate in department of epidemiology and applied biostatistics certificate at Columbia university. Data Science I student. 
